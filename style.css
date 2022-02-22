@@ -88,6 +88,16 @@ button{
     font-size:medium;
     color:red;
 } */
+@media screen and (max-width:800px){
+    .comp{
+        visibility: visible;
+        color: white;
+        font-size: 1.3rem;
+        text-shadow: 0 0 2px black;
+        position: absolute;
+        top: 5px;
+    }
+}
 @media screen and (max-width:600px){
     .container{
         width: 80vw;
